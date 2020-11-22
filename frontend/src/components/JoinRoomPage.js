@@ -1,4 +1,4 @@
-import React, { Component, component } from 'react';
+import React, { Component } from 'react';
 
 export default class JoinRoomPage extends Component {
 	constructor(props) {
@@ -6,6 +6,6 @@ export default class JoinRoomPage extends Component {
 	}
 
 	render() {
-		return <p>This is the Join Room Page.</p>
+		return <h1>This is the Join Room page.</h1>
 	}
 }
